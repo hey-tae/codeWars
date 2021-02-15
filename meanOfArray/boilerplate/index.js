@@ -28,18 +28,3 @@ function getAverage(scores){
   
   console.log("answer", getAverage([4,5,6,3,1,3,5,6]))
 
-
-
-
-
-
-
-// const positiveSum =arr => {
-//     var sum = 0;
-//     for(var i = 0; i < arr.length; i++) {
-//       if(arr[i] > 0) {
-//        sum += arr[i];
-//      }
-//     }
-//    return sum;
-//    }
