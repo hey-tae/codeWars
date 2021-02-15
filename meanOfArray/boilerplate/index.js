@@ -27,7 +27,7 @@ function getAverage(scores){
   }
   
   console.log("answer", getAverage([4,5,6,3,1,3,5,6]))
-  console.log("answer", getAverage([4,5,6,3,1,3,5,6]))
+  
 
   
 
