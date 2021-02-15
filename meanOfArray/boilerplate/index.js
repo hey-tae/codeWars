@@ -9,25 +9,30 @@
 // P (pseudo code) - 
 
 
+function getAverage(scores){
+    //need to get average of scores - add all and divide by length of array, round dowm with math.floor 
+    let sum=0 // *running total
+    for (let i = 0; i < scores.length ; i++){
+        //run for the lenth of the array 
+        //bracket notation 
+        sum = sum + scores [i]
+        
+    }
+    }
+   //find the average of the scores
+   //console.log(sum/scores.length)
+   //round down to nearest integer
+   return Math.floor(sum/scores.length)
+    
+  }
+  
+  console.log("answer", getAverage([4,5,6,3,1,3,5,6]))
 
 
 
 
 
 
-// function positiveSum(arr) {
-//     //create a containter to hold the sum
-
-
-
-//     //loop through the array to find positive integers 
-// }
-
-// console.log((positiveSum([1,2,3,4,5])); // 15
-// console.log((positiveSum([1,-2,3,4,5])); // 13
-// console.log((positiveSum([])); // 0
-// console.log((positiveSum([-1,-2,-3,-4,-5])); // 0
-// console.log((positiveSum([-1,2,3,4,-5])); // 9
 
 // const positiveSum =arr => {
 //     var sum = 0;
