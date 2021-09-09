@@ -30,4 +30,5 @@ const positiveSum =arr => {
      }
     }
    return sum;
+   console.log(sum)
    }
